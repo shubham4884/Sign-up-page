@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #393a3b, #353436)
+}
+
+.container 
+{
+    width: 70%;
+    background: #fff;
+    border-radius: 5px;
+    height: 100%;
+    position: relative;
+}
+
+.img-box {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    left: 0;
+    background-image: url(lake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-box {
+    position: absolute;
+    width: 60%;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+    left: 40%;
+    background-color: #918e9566;
+}
+
+
+H1 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+label, .check {
+    color: black;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.fname, .lname, .email, .contact, .password, .conf-password {
+    width: 220px;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin-left: 19.5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lname {
+    margin-left: 19.7%;
+}
+
+.email {
+
+    margin-left: 26%;
+
+}
+
+.contact {
+
+    margin-left: 19%;
+
+}
+
+.password {
+
+    margin-left: 21.5%;
+
+}
+
+.conf-password {
+
+    margin-left: 54px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: red;
+    font-size: 17px;
+
+}
+
+.submit-btn {
+
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px; 
+    margin-left:30%;
+    border: none;
+    color: rgb(15, 15, 18);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+input{
+    border-radius: 10px;
+
+}
+input:focus{
+    border-radius: 10px;
+    border: 2px solid black;
+
+
+}
